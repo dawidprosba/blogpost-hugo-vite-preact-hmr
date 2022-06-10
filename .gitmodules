@@ -1,0 +1,3 @@
+[submodule "themes/hugo-preact"]
+	path = themes/hugo-preact
+	url = https://github.com/DcBD/hugo-preact-theme.git
