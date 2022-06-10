@@ -1,0 +1,17 @@
+{
+  "name": "hugo-vite-preact-hmr",
+  "version": "1.0.0",
+  "description": "Hugo + vite + preact + hmr",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DcBD/blogpost-hugo-vite-preact-hmr.git"
+  },
+  "author": "Dawid Prośba (DcBD)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DcBD/blogpost-hugo-vite-preact-hmr/issues"
+  },
+  "homepage": "https://github.com/DcBD/blogpost-hugo-vite-preact-hmr#readme"
+}
