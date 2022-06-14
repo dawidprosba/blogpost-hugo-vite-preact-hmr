@@ -2,8 +2,14 @@
   "name": "hugo-vite-preact-hmr",
   "version": "1.0.0",
   "description": "Hugo + vite + preact + hmr",
-  "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "dev": "npm run build:hugo && run-p dev:**",
+    "dev:vite": "vite --host",
+    "dev:hugo-watch": "onchange 'content/**/*.md' 'config.toml' '../layouts/**/*' -- npm run build:hugo",
+    "build": "npm run build:hugo && npm run build:vite",
+    "build:hugo": "hugo -d public",
+    "build:vite": "vite build"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/DcBD/blogpost-hugo-vite-preact-hmr.git"
@@ -13,5 +19,13 @@
   "bugs": {
     "url": "https://github.com/DcBD/blogpost-hugo-vite-preact-hmr/issues"
   },
-  "homepage": "https://github.com/DcBD/blogpost-hugo-vite-preact-hmr#readme"
+  "homepage": "https://github.com/DcBD/blogpost-hugo-vite-preact-hmr#readme",
+  "devDependencies": {
+    "@preact/preset-vite": "^2.2.0",
+    "@types/node": "^17.0.42",
+    "npm-run-all": "^4.1.5",
+    "onchange": "^7.1.0",
+    "vite": "^2.9.12",
+    "vite-hugo-plugin": "^1.1.0"
+  }
 }

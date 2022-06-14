@@ -2,3 +2,16 @@ baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = "hugo-preact"
+copyright = "Made with love ❤️"
+defaultContentLanguage = "en"
+
+[[params.plugins.css]]
+link = "https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+
+
+[Languages.en]
+languageName = "En"
+languageCode = "en-us"
+contentDir = "content"
+weight = 1
+copyright = "Made with love ❤️"

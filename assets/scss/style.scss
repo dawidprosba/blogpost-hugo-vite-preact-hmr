@@ -1,0 +1,50 @@
+$background: #f8f8f8;
+$text: black;
+$special: #3b3b3b;
+
+body {
+    background-color: $background;
+    font-family: sans-serif;
+}
+
+a,
+h1,
+h2,
+h3 {
+    // color: $special;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: bold;
+}
+
+#homepage,
+section.feature-list.section {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header {
+    .navbar {
+        height: 100px;
+
+    }
+
+    border-bottom: #cbc6c6 solid 1px;
+}
+
+#portal-footer {
+    height: 15vh;
+    min-height: 100px;
+    background-color: #1e1e1e;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
