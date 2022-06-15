@@ -9,7 +9,6 @@ const appDir = __dirname;
 
 // The directory where hugo builds it's files.
 const hugoOutDir = resolve(appDir, 'public');
-const s = resolve(appDir, 'dist');
 
 // https://vitejs.dev/config/
 export default defineConfig({

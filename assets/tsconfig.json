@@ -1,0 +1,12 @@
+{
+    "extends": "../tsconfig.base.json",
+    "compilerOptions": {
+        "noImplicitAny": true,
+        "baseUrl": ".",
+        "paths": {
+            "js/*": [
+                "js/*"
+            ]
+        },
+    }
+}
