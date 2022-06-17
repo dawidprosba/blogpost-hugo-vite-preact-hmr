@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = '/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = "hugo-preact"
@@ -16,3 +16,15 @@ contentDir = "content"
 weight = 1
 copyright = "Made with love ❤️"
 
+
+# homepage section menu
+[[menu.main]]
+name = "Home"
+URL = "/"
+weight = 1
+
+# blog section menu
+[[menu.main]]
+name = "Preact app"
+URL = "/preact/"
+weight = 2
