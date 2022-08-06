@@ -11,11 +11,11 @@ Project is an example implementation of [Vite](https://vitejs.dev/) and [Preact]
 
 1. Clone repository 
    ```
-   $ https://github.com/DcBD/blogpost-hugo-vite-preact-hmr.git
+   https://github.com/DcBD/blogpost-hugo-vite-preact-hmr.git
    ```
 2. Initialize submodules
    ```
-    $ git submodule init
+    git submodule update --init --recursive
    ```
 3. Run project in development mode
    ```
